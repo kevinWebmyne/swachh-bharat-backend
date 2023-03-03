@@ -1,4 +1,4 @@
-const CmsRepository = require('./CmsRepository');
+const CmsRepository = require('./cmsRepository');
 class CmsService {
   constructor() {
     this.repository = new CmsRepository();
